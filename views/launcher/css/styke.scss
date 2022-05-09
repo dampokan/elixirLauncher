@@ -1,0 +1,182 @@
+*{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1029px;
+    height: 661px;
+    
+    background: #161616;
+    box-shadow: 0px 4px 62px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+}
+
+.top-part{
+    z-index: 3;
+    .small-logo{
+        position: absolute;
+        left: 32px;
+        top: 26px;
+    }
+    .logo-text{
+        position: absolute;
+        width: 163px;
+        height: 36px;
+        left: 67px;
+        top: 21px;
+        
+        font-family: 'Montserrat';
+        font-style: italic;
+        font-weight: 800;
+        font-size: 29.1255px;
+        line-height: 36px;
+
+        color: #FFFFFF;
+
+        .version{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 29.1255px;
+            line-height: 36px;
+            left: 3em;
+            color: #FFFFFF;
+        }
+    }
+
+    .minimize{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 940px;
+        top: 21px;
+        
+        background: #262626;
+        border-radius: 7px;
+    }
+
+    .close{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 981px;
+        top: 21px;
+        
+        background: #262626;
+        border-radius: 7px;
+    }
+}
+
+a{
+    animation: 0.5s ease-out 0s 1 unactive_btn;
+    position: absolute;
+    width: 231px;
+    height: 56px;
+    background: transparent;
+    border-radius: 8px;
+
+    img{
+        width: 26px;
+        height: 26px;
+        top: 15.54px;
+        left: 20px;
+        opacity: 0.4;
+    }
+
+    .button-text{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21.1722px;
+        line-height: 26px;
+
+        color: rgba(255, 255, 255, 0.4);
+        top: 14.82px;
+        left: 52px;
+    }
+}
+
+a:hover{
+    background-color: #202020;
+}
+
+@keyframes active_btn {
+    0%{background: transparent;}
+    100%{background: #FF00A8;}
+}
+
+@keyframes unactive_btn {
+    0% {background: #FF00A8;}
+    100% {background: transparent;}
+}
+
+.left-col{
+    position: absolute;
+    width: 259px;
+    height: 661px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    
+    background: #010005;
+
+    .active{
+        background: #FF00A8;
+        .button-text{
+            color: white;
+        }
+        img{
+            opacity: 1;
+        }
+        
+        animation: 0.5s ease-out 0s 1 active_btn;
+    }
+
+    #btn-1{
+        position: absolute;
+        left: 14px;
+        top: 121px;
+    }
+
+    #btn-2{
+        position: absolute;
+        left: 14px;
+        top: 187px;
+    }
+
+    #btn-3{
+        position: absolute;
+        left: 14px;
+        top: 253px;
+    }
+
+    #btn-4{
+        position: absolute;
+        left: 14px;
+        top: 319px;
+    }
+
+    #btn-5{
+        position: absolute;
+        left: 14px;
+        top: 385px;
+    }
+
+    #btn-6{
+        position: absolute;
+        left: 14px;
+        top: 451px;
+    }
+}
+
+.right-col{
+    iframe{
+        position: absolute;
+        width: 770px;
+        height: 661px;
+        left: 259px;
+        top: 0px;
+    }
+}

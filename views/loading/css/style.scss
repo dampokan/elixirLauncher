@@ -1,0 +1,114 @@
+*{
+    position: absolute;
+    margin: 0px;
+}
+
+@keyframes big-logo {
+    0% { left: -280px;}
+    100% {left: 32px;}
+}
+
+@keyframes small-logo {
+    0% { left: -43px;}
+    100% {left: 32px;}
+}
+
+@keyframes subtitle {
+    0%{left: 18px;}
+    100%{left: 291px;}
+}
+
+.container{
+    background: linear-gradient(108.71deg, #020114 17.37%, #310F2B 100%);
+    width: 788px;
+    height: 457px;
+    border-radius: 13px;
+}
+
+.logo{
+    position: absolute;
+    left: 32px;
+    top: 26px;
+
+    animation: 0.5s ease-out 0s 1 small-logo;
+}
+
+.left-col{
+    z-index: 10;
+    .title{
+        position: absolute;
+        width: 259px;
+        height: 118px;
+        left: 32px;
+        top: 169px;
+        
+        font-family: 'Montserrat';
+        font-style: italic;
+        font-weight: 800;
+        font-size: 96.7115px;
+        line-height: 118px;
+        /* identical to box height */
+        
+        
+        color: #FFFFFF;
+
+        animation: 0.5s ease-out 0s 1 big-logo;
+    }
+
+    .subtitle{
+        position: absolute;
+        width: 85px;
+        height: 21px;
+        left: 291px;
+        top: 242px;
+        
+        font-family: 'Montserrat';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 17.6142px;
+        line-height: 21px;
+        
+        color: #FFFFFF;
+        animation: 0.5s ease-out 0s 1 subtitle;
+    }
+
+    .spam{
+        position: absolute;
+        width: 148px;
+        height: 15px;
+        left: 32px;
+        top: 414px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12.5666px;
+        line-height: 15px;
+        
+        color: #FFFFFF;
+
+        a{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12.5666px;
+            line-height: 15px;
+            
+            color: #FF00A8;
+            left: 7.5em;
+            text-decoration: none;
+        }
+    }
+}
+
+.right-col{
+    .ornaments{
+        position: absolute;
+        width: 656px;
+        height: 457px;
+        left: 132px;
+        top: 0px;
+        z-index: 1;
+        border-radius: 13px;
+    }
+}

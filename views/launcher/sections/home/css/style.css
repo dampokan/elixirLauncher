@@ -1,0 +1,143 @@
+* {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  width: 191px;
+  height: 191px;
+  background: #1E1E1E;
+  border-radius: 15px;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+.container {
+  position: absolute;
+  width: 770px;
+  height: 661px;
+  background: #161616;
+}
+
+#btn-1 {
+  position: absolute;
+  left: 87px;
+  top: 131px;
+}
+
+#btn-1 span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.1722px;
+  line-height: 26px;
+  /* identical to box height */
+  color: rgba(255, 255, 255, 0.69);
+  top: 82px;
+  left: 43px;
+  width: 186px;
+}
+
+#btn-2 {
+  position: absolute;
+  left: 289px;
+  top: 131px;
+}
+
+#btn-2 span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.1722px;
+  line-height: 26px;
+  /* identical to box height */
+  color: rgba(255, 255, 255, 0.69);
+  top: 82px;
+  left: 46px;
+}
+
+#btn-3 {
+  position: absolute;
+  left: 491px;
+  top: 131px;
+}
+
+#btn-3 span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.1722px;
+  line-height: 26px;
+  /* identical to box height */
+  color: rgba(255, 255, 255, 0.69);
+  top: 82px;
+  left: 39px;
+}
+
+#btn-4 {
+  position: absolute;
+  left: 87px;
+  top: 339px;
+}
+
+#btn-4 span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.1722px;
+  line-height: 26px;
+  /* identical to box height */
+  text-align: center;
+  color: rgba(255, 255, 255, 0.69);
+  top: 68px;
+  left: 31px;
+  width: 130px;
+}
+
+#btn-5 {
+  position: absolute;
+  left: 289px;
+  top: 339px;
+}
+
+#btn-5 span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.1722px;
+  line-height: 26px;
+  /* identical to box height */
+  color: rgba(255, 255, 255, 0.69);
+  top: 68px;
+  left: 51px;
+  width: 90px;
+}
+
+#btn-6 {
+  position: absolute;
+  left: 491px;
+  top: 339px;
+  background: #05F7A6;
+}
+
+#btn-6 span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30.4351px;
+  line-height: 37px;
+  text-align: center;
+  color: #161616;
+  top: 75.31px;
+  left: 50px;
+}
+
+#btn-6:hover {
+  background-color: #FF00A8;
+}
+
+a:hover {
+  background-color: #161616;
+}
+/*# sourceMappingURL=style.css.map */

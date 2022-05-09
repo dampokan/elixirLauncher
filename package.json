@@ -1,0 +1,26 @@
+{
+  "name": "elixirlauncher",
+  "version": "1.0.0",
+  "description": "Un launcher para el mod menu explosive de gta5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dampokan/elixirLauncher.git"
+  },
+  "author": "dampokan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dampokan/elixirLauncher/issues"
+  },
+  "homepage": "https://github.com/dampokan/elixirLauncher#readme",
+  "devDependencies": {
+    "electron": "^18.2.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}
